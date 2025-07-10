@@ -81,7 +81,7 @@ def pytest_sessionstart(session):
         "type": "manual",           # Can be 'jenkins', 'github', 'azure', etc.
         "url": "",                  # Link to CI job or relevant dashboard (if applicable)
         "buildOrder": int(datetime.datetime.now().timestamp()), # Unique build order
-        "buildName": f"{socket.gethostname()}_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
+        "buildName": f"{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
         "buildUrl": "",             # Link to build (if applicable)
         "reportUrl": "",            # Link to report (if applicable)
         "branch": branch,           # Git branch

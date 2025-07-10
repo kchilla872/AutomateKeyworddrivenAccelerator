@@ -21,17 +21,7 @@ pipeline {
                 }
             }
         }
-        stage('Generate Allure Report') {
-            steps {
-                script {
-                    bat '''
-                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\DemoParallel0622"
-                        call venv\\Scripts\\activate
-                        allure generate allure-results --clean -o allure-report
-                    '''
-                }
-            }
-        }
+        // Optionally, keep this if you want to archive the HTML report
         stage('Archive Allure Report') {
             steps {
                 archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
@@ -40,7 +30,7 @@ pipeline {
     }
     post {
         always {
-            publishHTML([allowMissing: true, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'allure-report', reportFiles: 'index.html', reportName: 'Allure Report'])
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
         }
     }
 }

@@ -3,130 +3,130 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_TC001_View_Logo[chromium]",
-    "uid" : "85681369f990be12",
+    "uid" : "de9439105ec5a3f3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136855559,
-      "stop" : 1752136859277,
-      "duration" : 3718
+      "start" : 1752142164826,
+      "stop" : 1752142169776,
+      "duration" : 4950
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC002_SearchItem[chromium]",
-    "uid" : "cde010c4ea36b6e2",
+    "uid" : "460b3a52b929e7e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136874286,
-      "stop" : 1752136881667,
-      "duration" : 7381
+      "start" : 1752142183800,
+      "stop" : 1752142190624,
+      "duration" : 6824
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC003_AddtoCart[chromium]",
-    "uid" : "cceb451d23a2c7b0",
+    "uid" : "e8e5f26ad22d9a66",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136889769,
-      "stop" : 1752136908653,
-      "duration" : 18884
+      "start" : 1752142223672,
+      "stop" : 1752142247781,
+      "duration" : 24109
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC004_GotoCart[chromium]",
-    "uid" : "1a310c9cd4a6fef5",
+    "uid" : "bbc63e026aac94a7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136917226,
-      "stop" : 1752136922524,
-      "duration" : 5298
+      "start" : 1752142265751,
+      "stop" : 1752142269898,
+      "duration" : 4147
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC005_ViewCart[chromium]",
-    "uid" : "63d7fee6eb5eebf8",
+    "uid" : "821b6aa32ded881a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136930745,
-      "stop" : 1752136933960,
-      "duration" : 3215
+      "start" : 1752142283095,
+      "stop" : 1752142286778,
+      "duration" : 3683
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC006_Unchecking_Checking_CartItems[chromium]",
-    "uid" : "6621f6c7edcdc23",
+    "uid" : "59b35da9af23e093",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136943449,
-      "stop" : 1752136946486,
-      "duration" : 3037
+      "start" : 1752142300340,
+      "stop" : 1752142304572,
+      "duration" : 4232
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC007_Save_for_later_CartItems[chromium]",
-    "uid" : "3ef6322cac60044e",
+    "uid" : "80ab6cd725d456fe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136954762,
-      "stop" : 1752136959524,
-      "duration" : 4762
+      "start" : 1752142335423,
+      "stop" : 1752142340996,
+      "duration" : 5573
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC008_Move_to_cart[chromium]",
-    "uid" : "6e22235f24bcee89",
+    "uid" : "bc442c6fd55d5a31",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136967079,
-      "stop" : 1752136971340,
-      "duration" : 4261
+      "start" : 1752142353879,
+      "stop" : 1752142359487,
+      "duration" : 5608
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC009_Increment_Decrement_items[chromium]",
-    "uid" : "ba9d860bf07e9f73",
+    "uid" : "397f4669576e275c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136980507,
-      "stop" : 1752136984426,
-      "duration" : 3919
+      "start" : 1752142374451,
+      "stop" : 1752142380033,
+      "duration" : 5582
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'chromium'" ]
   }, {
     "name" : "test_TC010_Delete_items[chromium]",
-    "uid" : "2be79da38ba5c13b",
+    "uid" : "6c88c56c372ec3fa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1752136994130,
-      "stop" : 1752136997952,
-      "duration" : 3822
+      "start" : 1752142417622,
+      "stop" : 1752142423037,
+      "duration" : 5415
     },
     "flaky" : false,
     "newFailed" : false,

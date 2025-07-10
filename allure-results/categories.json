@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Product Defects",
+        "matchedStatuses": [
+            "failed"
+        ],
+        "messageRegex": ".*failed for a known bug.*",
+        "description": "Tests failing due to actual product bugs."
+    },
+    {
+        "name": "Test Environment Issues",
+        "matchedStatuses": [
+            "broken"
+        ],
+        "messageRegex": ".*(connection|timeout|environment|setup).*",
+        "description": "Tests broken due to issues with the test environment, not the application itself."
+    },
+    {
+        "name": "Test Infrastructure Flaky",
+        "matchedStatuses": [
+            "broken"
+        ],
+        "messageRegex": ".*(element not found|stale element|network error).*",
+        "description": "Tests broken due to flaky infrastructure, automation issues, or transient errors."
+    },
+    {
+        "name": "Other Issues",
+        "matchedStatuses": [
+            "failed",
+            "broken",
+            "skipped"
+        ]
+    }
+]

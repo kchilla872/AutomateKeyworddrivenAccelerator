@@ -2,29 +2,45 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Setup and Test') {
             steps {
-                git 'https://github.com/kchilla872/Playwright.git'
+                script {
+                    bat '''
+                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\DemoParallel0622"
+                        call venv\\Scripts\\activate
+                        pip install -r requirements.txt
+                        playwright install chromium --with-deps
+                        if exist allure-results rmdir /s /q allure-results
+                        if exist allure-report rmdir /s /q allure-report
+                        if exist allure-report\\history (
+                            mkdir allure-results
+                            xcopy /E /I /Y allure-report\\history allure-results\\history
+                        )
+                        pytest test_homePage.py -v --alluredir=allure-results
+                    '''
+                }
             }
         }
-        stage('Install Dependencies') {
+        stage('Generate Allure Report') {
             steps {
-                bat 'python -m venv venv'
-                bat 'python -m pip install --upgrade pip'
-                bat 'call venv\\Scripts\\activate && pip install -r requirements.txt'
-                bat 'call venv\\Scripts\\activate && playwright install'
+                script {
+                    bat '''
+                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\DemoParallel0622"
+                        call venv\\Scripts\\activate
+                        allure generate allure-results --clean -o allure-report
+                    '''
+                }
             }
         }
-        stage('Run Tests') {
+        stage('Archive Allure Report') {
             steps {
-                bat 'call venv\\Scripts\\activate && pytest homePage.py -v'
+                archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
             }
         }
     }
     post {
         always {
-            junit 'test-results.xml'
-            cleanWs()
+            publishHTML([allowMissing: true, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'allure-report', reportFiles: 'index.html', reportName: 'Allure Report'])
         }
     }
 }

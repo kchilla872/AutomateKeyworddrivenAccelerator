@@ -1,0 +1,101 @@
+[ {
+  "uid" : "63d7fee6eb5eebf8",
+  "name" : "test_TC005_ViewCart[chromium]",
+  "time" : {
+    "start" : 1752136930745,
+    "stop" : 1752136933960,
+    "duration" : 3215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cceb451d23a2c7b0",
+  "name" : "test_TC003_AddtoCart[chromium]",
+  "time" : {
+    "start" : 1752136889769,
+    "stop" : 1752136908653,
+    "duration" : 18884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ef6322cac60044e",
+  "name" : "test_TC007_Save_for_later_CartItems[chromium]",
+  "time" : {
+    "start" : 1752136954762,
+    "stop" : 1752136959524,
+    "duration" : 4762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85681369f990be12",
+  "name" : "test_TC001_View_Logo[chromium]",
+  "time" : {
+    "start" : 1752136855559,
+    "stop" : 1752136859277,
+    "duration" : 3718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cde010c4ea36b6e2",
+  "name" : "test_TC002_SearchItem[chromium]",
+  "time" : {
+    "start" : 1752136874286,
+    "stop" : 1752136881667,
+    "duration" : 7381
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2be79da38ba5c13b",
+  "name" : "test_TC010_Delete_items[chromium]",
+  "time" : {
+    "start" : 1752136994130,
+    "stop" : 1752136997952,
+    "duration" : 3822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba9d860bf07e9f73",
+  "name" : "test_TC009_Increment_Decrement_items[chromium]",
+  "time" : {
+    "start" : 1752136980507,
+    "stop" : 1752136984426,
+    "duration" : 3919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a310c9cd4a6fef5",
+  "name" : "test_TC004_GotoCart[chromium]",
+  "time" : {
+    "start" : 1752136917226,
+    "stop" : 1752136922524,
+    "duration" : 5298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e22235f24bcee89",
+  "name" : "test_TC008_Move_to_cart[chromium]",
+  "time" : {
+    "start" : 1752136967079,
+    "stop" : 1752136971340,
+    "duration" : 4261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6621f6c7edcdc23",
+  "name" : "test_TC006_Unchecking_Checking_CartItems[chromium]",
+  "time" : {
+    "start" : 1752136943449,
+    "stop" : 1752136946486,
+    "duration" : 3037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

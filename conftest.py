@@ -49,7 +49,8 @@ def pytest_configure_node(node):
     if hasattr(node.config, '_browser_queue') and node.config._browser_queue:
         browser = node.config._browser_queue.pop(0)
         node.workerinput['browser'] = browser
-        print(f"🌐 Worker {node.gateway.id if hasattr(node, 'gateway') else 'main'} assigned browser: {browser}")
+        print(f"Worker {node.gateway.id if hasattr(node, 'gateway') else 'main'} assigned browser: {browser}")
+
 
 # =============== Allure Environment, Executors, Trend, Categories ===============
 

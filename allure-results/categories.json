@@ -13,7 +13,7 @@
             "broken"
         ],
         "messageRegex": ".*(connection|timeout|environment|setup).*",
-        "description": "Tests broken due to issues with the test environment, not the application itself."
+        "description": "Tests broken due to issues with the test environment."
     },
     {
         "name": "Test Infrastructure Flaky",
@@ -21,7 +21,7 @@
             "broken"
         ],
         "messageRegex": ".*(element not found|stale element|network error).*",
-        "description": "Tests broken due to flaky infrastructure, automation issues, or transient errors."
+        "description": "Tests broken due to flaky infrastructure or transient errors."
     },
     {
         "name": "Other Issues",

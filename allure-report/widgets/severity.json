@@ -1,100 +1,100 @@
 [ {
-  "uid" : "6c88c56c372ec3fa",
-  "name" : "test_TC010_Delete_items[chromium]",
-  "time" : {
-    "start" : 1752142417622,
-    "stop" : 1752142423037,
-    "duration" : 5415
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de9439105ec5a3f3",
-  "name" : "test_TC001_View_Logo[chromium]",
-  "time" : {
-    "start" : 1752142164826,
-    "stop" : 1752142169776,
-    "duration" : 4950
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e8e5f26ad22d9a66",
-  "name" : "test_TC003_AddtoCart[chromium]",
-  "time" : {
-    "start" : 1752142223672,
-    "stop" : 1752142247781,
-    "duration" : 24109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "460b3a52b929e7e",
-  "name" : "test_TC002_SearchItem[chromium]",
-  "time" : {
-    "start" : 1752142183800,
-    "stop" : 1752142190624,
-    "duration" : 6824
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bbc63e026aac94a7",
-  "name" : "test_TC004_GotoCart[chromium]",
-  "time" : {
-    "start" : 1752142265751,
-    "stop" : 1752142269898,
-    "duration" : 4147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "821b6aa32ded881a",
-  "name" : "test_TC005_ViewCart[chromium]",
-  "time" : {
-    "start" : 1752142283095,
-    "stop" : 1752142286778,
-    "duration" : 3683
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59b35da9af23e093",
+  "uid" : "39cab869158bf162",
   "name" : "test_TC006_Unchecking_Checking_CartItems[chromium]",
   "time" : {
-    "start" : 1752142300340,
-    "stop" : 1752142304572,
-    "duration" : 4232
+    "start" : 1752846932186,
+    "stop" : 1752846936543,
+    "duration" : 4357
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bc442c6fd55d5a31",
-  "name" : "test_TC008_Move_to_cart[chromium]",
+  "uid" : "f3381aade9ec062a",
+  "name" : "test_TC002_SearchItem[chromium]",
   "time" : {
-    "start" : 1752142353879,
-    "stop" : 1752142359487,
-    "duration" : 5608
+    "start" : 1752846885988,
+    "stop" : 1752846892924,
+    "duration" : 6936
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "397f4669576e275c",
-  "name" : "test_TC009_Increment_Decrement_items[chromium]",
-  "time" : {
-    "start" : 1752142374451,
-    "stop" : 1752142380033,
-    "duration" : 5582
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "80ab6cd725d456fe",
+  "uid" : "e68fdc57e6544345",
   "name" : "test_TC007_Save_for_later_CartItems[chromium]",
   "time" : {
-    "start" : 1752142335423,
-    "stop" : 1752142340996,
-    "duration" : 5573
+    "start" : 1752846943978,
+    "stop" : 1752846948227,
+    "duration" : 4249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cc8013c0b20d705",
+  "name" : "test_TC003_AddtoCart[chromium]",
+  "time" : {
+    "start" : 1752846860277,
+    "stop" : 1752846886532,
+    "duration" : 26255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cdd2d017e7078ea",
+  "name" : "test_TC001_View_Logo[chromium]",
+  "time" : {
+    "start" : 1752846858290,
+    "stop" : 1752846862559,
+    "duration" : 4269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "347ffef5a3472b89",
+  "name" : "test_TC005_ViewCart[chromium]",
+  "time" : {
+    "start" : 1752846917876,
+    "stop" : 1752846920110,
+    "duration" : 2234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4c37b5fbb9755ef",
+  "name" : "test_TC004_GotoCart[chromium]",
+  "time" : {
+    "start" : 1752846901003,
+    "stop" : 1752846907315,
+    "duration" : 6312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4113b3f67ad29beb",
+  "name" : "test_TC009_Increment_Decrement_items[chromium]",
+  "time" : {
+    "start" : 1752846968737,
+    "stop" : 1752846974315,
+    "duration" : 5578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb648d9f3a1d6e4b",
+  "name" : "test_TC008_Move_to_cart[chromium]",
+  "time" : {
+    "start" : 1752846955635,
+    "stop" : 1752846961079,
+    "duration" : 5444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e1259878bd055c2",
+  "name" : "test_TC010_Delete_items[chromium]",
+  "time" : {
+    "start" : 1752846981754,
+    "stop" : 1752846985435,
+    "duration" : 3681
   },
   "status" : "passed",
   "severity" : "normal"

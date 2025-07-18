@@ -77,47 +77,43 @@ def pytest_sessionstart(session):
     # --- Executors Info ---
     branch, commit = get_git_info()
     executor_info = {
-        "name": getpass.getuser(),  # Current user
-        "type": "manual",           # Can be 'jenkins', 'github', 'azure', etc.
-        "url": "",                  # Link to CI job or relevant dashboard (if applicable)
-        "buildOrder": int(datetime.datetime.now().timestamp()), # Unique build order
+        "name": getpass.getuser(),
+        "type": "manual",
+        "url": "",
+        "buildOrder": int(datetime.datetime.now().timestamp()),
         "buildName": f"{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}",
-        "buildUrl": "",             # Link to build (if applicable)
-        "reportUrl": "",            # Link to report (if applicable)
-        "branch": branch,           # Git branch
-        "commit": commit            # Git commit hash
+        "buildUrl": "",
+        "reportUrl": "",
+        "branch": branch,
+        "commit": commit
     }
     exec_path = os.path.join(allure_results, 'executor.json')
     with open(exec_path, 'w') as f:
-        json.dump(executor_info, f, indent=4) # Use indent for readability in the file
+        json.dump(executor_info, f, indent=4)
 
     # --- Custom Categories ---
-    # Defines how tests are categorized based on their status or message.
-    # Note: These apply to ALL tests, but Allure will only show categories
-    # with matching test results.
     categories = [
         {
             "name": "Product Defects",
             "matchedStatuses": ["failed"],
-            "messageRegex": ".*failed for a known bug.*", # Optional: regex to match failure message
+            "messageRegex": ".*failed for a known bug.*",
             "description": "Tests failing due to actual product bugs."
         },
         {
             "name": "Test Environment Issues",
-            "matchedStatuses": ["broken"], # 'broken' means the test couldn't even start or crashed
+            "matchedStatuses": ["broken"],
             "messageRegex": ".*(connection|timeout|environment|setup).*",
-            "description": "Tests broken due to issues with the test environment, not the application itself."
+            "description": "Tests broken due to issues with the test environment."
         },
         {
             "name": "Test Infrastructure Flaky",
             "matchedStatuses": ["broken"],
             "messageRegex": ".*(element not found|stale element|network error).*",
-            "description": "Tests broken due to flaky infrastructure, automation issues, or transient errors."
+            "description": "Tests broken due to flaky infrastructure or transient errors."
         },
         {
             "name": "Other Issues",
             "matchedStatuses": ["failed", "broken", "skipped"]
-            # No messageRegex means it's a catch-all for these statuses not matched by others
         }
     ]
     categories_path = os.path.join(allure_results, 'categories.json')
@@ -125,33 +121,30 @@ def pytest_sessionstart(session):
         json.dump(categories, f, indent=4)
 
     # --- Trend/History ---
-    # Copies the 'history' folder from the previous allure-report to the current allure-results.
-    # This enables trend graphs in the new report.
     prev_report_history_path = os.path.join(os.getcwd(), 'allure-report', 'history')
     current_results_history_path = os.path.join(allure_results, 'history')
 
     if os.path.exists(prev_report_history_path) and os.path.isdir(prev_report_history_path):
         print(f"Copying previous history from {prev_report_history_path} to {current_results_history_path}")
         if os.path.exists(current_results_history_path):
-            shutil.rmtree(current_results_history_path) # Clear old history if it exists
+            shutil.rmtree(current_results_history_path)
         shutil.copytree(prev_report_history_path, current_results_history_path)
     else:
         print("No previous Allure report history found. Trends will be generated from the next run.")
 
-
 # =============== Playwright Fixtures ===============
+
 
 @pytest.fixture(scope="session")
 def browser_name(request):
-    """Get browser name for current worker"""
     if hasattr(request.config, 'workerinput'):
         return request.config.workerinput.get('browser', 'chromium')
     else:
         return request.config.getoption("custom_browser")
 
+
 @pytest.fixture(scope="function")
 def browser(playwright: Playwright, request, browser_name):
-    """Launch browser based on worker assignment"""
     hidden = request.config.getoption("hidden")
     runZap = request.config.getoption("runZap")
     launch_args = ['--no-sandbox', '--disable-setuid-sandbox']
@@ -194,9 +187,9 @@ def browser(playwright: Playwright, request, browser_name):
     yield browser
     browser.close()
 
+
 @pytest.fixture(scope="function")
 def page(browser, request, browser_name):
-    """Create page with browser-specific configuration and enable tracing."""
     storage_path = f"test_{browser_name}.json"
     add_video = request.config.getoption("add_video")
 
@@ -215,7 +208,6 @@ def page(browser, request, browser_name):
         context_args["record_video_dir"] = video_dir
 
     context = browser.new_context(**context_args)
-    # Start tracing before any actions
     context.tracing.start(screenshots=True, snapshots=True, sources=True)
     page = context.new_page()
     page.set_default_timeout(60000)
@@ -223,24 +215,29 @@ def page(browser, request, browser_name):
 
     yield page
 
-    # Stop tracing and save the trace (for every test)
     trace_path = f"traces/{browser_name}/test_{request.node.name}.zip"
     os.makedirs(os.path.dirname(trace_path), exist_ok=True)
     context.tracing.stop(path=trace_path)
     page.close()
     context.close()
 
-# =============== Allure Screenshot Attachments ===============
+# =============== Allure Metadata: Browser & Worker ===============
 
 @pytest.fixture(autouse=True)
-def add_browser_info(request, browser_name):
-    """Add browser information to test metadata"""
+def add_browser_and_worker_info(request, browser_name):
+    # Add browser label/marker
     if hasattr(request.node, 'add_marker'):
         request.node.add_marker(pytest.mark.browser(browser_name))
+    # Add Allure labels for browser, worker, and process id
+    worker_id = getattr(request.config, "workerinput", {}).get("workerid", "master")
+    allure.dynamic.label("browser", browser_name)
+    allure.dynamic.label("worker", worker_id)
+    allure.dynamic.label("pid", str(os.getpid()))
+
+# =============== Allure Screenshot Attachments ===============
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
-    """Hook to take a screenshot for each test and attach it to Allure report."""
     outcome = yield
     report = outcome.get_result()
     if report.when == "call":
@@ -249,7 +246,6 @@ def pytest_runtest_makereport(item, call):
             screenshot_dir = Path("screenshots")
             screenshot_dir.mkdir(exist_ok=True)
             screenshot_path = screenshot_dir / f"{item.nodeid.replace('::', '_')}.png"
-            # Ensure the page is still accessible before screenshotting
             if not page.is_closed():
                 try:
                     page.screenshot(path=screenshot_path)

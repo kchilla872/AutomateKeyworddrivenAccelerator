@@ -1,81 +1,265 @@
 {
+  "2768e129c8a1a4137c763b820513ad67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "b4c37b5fbb9755ef",
+      "reportUrl" : "/#testresult/b4c37b5fbb9755ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752846901003,
+        "stop" : 1752846907315,
+        "duration" : 6312
+      }
+    }, {
+      "uid" : "a94b9f1f7cf9e354",
+      "reportUrl" : "/#testresult/a94b9f1f7cf9e354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829225475,
+        "stop" : 1752829230058,
+        "duration" : 4583
+      }
+    }, {
+      "uid" : "50893f50b72fe57f",
+      "reportUrl" : "/#testresult/50893f50b72fe57f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825132915,
+        "stop" : 1752825137120,
+        "duration" : 4205
+      }
+    }, {
+      "uid" : "b6a040b1172df114",
+      "reportUrl" : "/#testresult/b6a040b1172df114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657127062,
+        "stop" : 1752657130954,
+        "duration" : 3892
+      }
+    }, {
+      "uid" : "8e6e739ba519fbc9",
+      "reportUrl" : "/#testresult/8e6e739ba519fbc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654064008,
+        "stop" : 1752654069906,
+        "duration" : 5898
+      }
+    }, {
+      "uid" : "d5f775179ff8ca1d",
+      "reportUrl" : "/#testresult/d5f775179ff8ca1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752650977696,
+        "stop" : 1752650981567,
+        "duration" : 3871
+      }
+    } ]
+  },
   "fdcf7dc1f84e8ddd9fdfa62b9a796970" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "80ab6cd725d456fe",
-      "reportUrl" : "/#testresult/80ab6cd725d456fe",
+      "uid" : "e68fdc57e6544345",
+      "reportUrl" : "/#testresult/e68fdc57e6544345",
       "status" : "passed",
       "time" : {
-        "start" : 1752142335423,
-        "stop" : 1752142340996,
-        "duration" : 5573
+        "start" : 1752846943978,
+        "stop" : 1752846948227,
+        "duration" : 4249
+      }
+    }, {
+      "uid" : "c3bef1f72ebc45d5",
+      "reportUrl" : "/#testresult/c3bef1f72ebc45d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829262968,
+        "stop" : 1752829268102,
+        "duration" : 5134
+      }
+    }, {
+      "uid" : "c607f5ce18e5eb7b",
+      "reportUrl" : "/#testresult/c607f5ce18e5eb7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825145383,
+        "stop" : 1752825150759,
+        "duration" : 5376
+      }
+    }, {
+      "uid" : "408e93d36dbdbc6f",
+      "reportUrl" : "/#testresult/408e93d36dbdbc6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657172633,
+        "stop" : 1752657177683,
+        "duration" : 5050
+      }
+    }, {
+      "uid" : "1bd5a2e81b57115c",
+      "reportUrl" : "/#testresult/1bd5a2e81b57115c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654120994,
+        "stop" : 1752654126208,
+        "duration" : 5214
+      }
+    }, {
+      "uid" : "63723ade8451f0c",
+      "reportUrl" : "/#testresult/63723ade8451f0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752651047270,
+        "stop" : 1752651050120,
+        "duration" : 2850
       }
     } ]
   },
   "35896d428e0505ea23c87a2cbb32de21" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "bc442c6fd55d5a31",
-      "reportUrl" : "/#testresult/bc442c6fd55d5a31",
+      "uid" : "eb648d9f3a1d6e4b",
+      "reportUrl" : "/#testresult/eb648d9f3a1d6e4b",
       "status" : "passed",
       "time" : {
-        "start" : 1752142353879,
-        "stop" : 1752142359487,
-        "duration" : 5608
+        "start" : 1752846955635,
+        "stop" : 1752846961079,
+        "duration" : 5444
       }
-    } ]
-  },
-  "2768e129c8a1a4137c763b820513ad67" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bbc63e026aac94a7",
-      "reportUrl" : "/#testresult/bbc63e026aac94a7",
+    }, {
+      "uid" : "54f5cd56d29e1380",
+      "reportUrl" : "/#testresult/54f5cd56d29e1380",
       "status" : "passed",
       "time" : {
-        "start" : 1752142265751,
-        "stop" : 1752142269898,
-        "duration" : 4147
+        "start" : 1752829274473,
+        "stop" : 1752829278199,
+        "duration" : 3726
+      }
+    }, {
+      "uid" : "acf5f2027090804a",
+      "reportUrl" : "/#testresult/acf5f2027090804a",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"xpath=(//input[@data-action='move-to-cart']/ancestor::span[@class='a-button-inner'])[1]\") to be visible\n    116 × locator resolved to hidden <span class=\"a-button-inner\">…</span>",
+      "time" : {
+        "start" : 1752825146596,
+        "stop" : 1752825208812,
+        "duration" : 62216
+      }
+    }, {
+      "uid" : "3c97dde94987bf0e",
+      "reportUrl" : "/#testresult/3c97dde94987bf0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657187732,
+        "stop" : 1752657192056,
+        "duration" : 4324
+      }
+    }, {
+      "uid" : "a98383209aa669df",
+      "reportUrl" : "/#testresult/a98383209aa669df",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"xpath=(//input[@data-action='move-to-cart']/ancestor::span[@class='a-button-inner'])[1]\") to be visible\n    115 × locator resolved to hidden <span class=\"a-button-inner\">…</span>",
+      "time" : {
+        "start" : 1752654109852,
+        "stop" : 1752654171645,
+        "duration" : 61793
+      }
+    }, {
+      "uid" : "177ba0ded89a2543",
+      "reportUrl" : "/#testresult/177ba0ded89a2543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752651073100,
+        "stop" : 1752651076098,
+        "duration" : 2998
       }
     } ]
   },
   "036a24d6c8e38fed89f2a877cdbbb564" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "397f4669576e275c",
-      "reportUrl" : "/#testresult/397f4669576e275c",
+      "uid" : "4113b3f67ad29beb",
+      "reportUrl" : "/#testresult/4113b3f67ad29beb",
       "status" : "passed",
       "time" : {
-        "start" : 1752142374451,
-        "stop" : 1752142380033,
-        "duration" : 5582
+        "start" : 1752846968737,
+        "stop" : 1752846974315,
+        "duration" : 5578
+      }
+    }, {
+      "uid" : "f44230cb2fd938ed",
+      "reportUrl" : "/#testresult/f44230cb2fd938ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829281613,
+        "stop" : 1752829285658,
+        "duration" : 4045
+      }
+    }, {
+      "uid" : "2fd9a2fd56e5acc4",
+      "reportUrl" : "/#testresult/2fd9a2fd56e5acc4",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"//span[@class ='a-icon a-icon-small-add']\") to be visible",
+      "time" : {
+        "start" : 1752825161979,
+        "stop" : 1752825224953,
+        "duration" : 62974
+      }
+    }, {
+      "uid" : "7f784fd8e084040b",
+      "reportUrl" : "/#testresult/7f784fd8e084040b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657211203,
+        "stop" : 1752657214216,
+        "duration" : 3013
+      }
+    }, {
+      "uid" : "d8f5ee0112da089d",
+      "reportUrl" : "/#testresult/d8f5ee0112da089d",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"//span[@class ='a-icon a-icon-small-add']\") to be visible",
+      "time" : {
+        "start" : 1752654132428,
+        "stop" : 1752654195090,
+        "duration" : 62662
+      }
+    }, {
+      "uid" : "924f3e81c11a612",
+      "reportUrl" : "/#testresult/924f3e81c11a612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752651094781,
+        "stop" : 1752651097457,
+        "duration" : 2676
       }
     } ]
   },
@@ -84,18 +268,63 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "460b3a52b929e7e",
-      "reportUrl" : "/#testresult/460b3a52b929e7e",
+      "uid" : "f3381aade9ec062a",
+      "reportUrl" : "/#testresult/f3381aade9ec062a",
       "status" : "passed",
       "time" : {
-        "start" : 1752142183800,
-        "stop" : 1752142190624,
-        "duration" : 6824
+        "start" : 1752846885988,
+        "stop" : 1752846892924,
+        "duration" : 6936
+      }
+    }, {
+      "uid" : "201a80c0ed41629c",
+      "reportUrl" : "/#testresult/201a80c0ed41629c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829231020,
+        "stop" : 1752829237769,
+        "duration" : 6749
+      }
+    }, {
+      "uid" : "6888331365c41035",
+      "reportUrl" : "/#testresult/6888331365c41035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825119123,
+        "stop" : 1752825126264,
+        "duration" : 7141
+      }
+    }, {
+      "uid" : "e54371a089aeb58",
+      "reportUrl" : "/#testresult/e54371a089aeb58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657064392,
+        "stop" : 1752657072395,
+        "duration" : 8003
+      }
+    }, {
+      "uid" : "4244e46b10f7ec16",
+      "reportUrl" : "/#testresult/4244e46b10f7ec16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654079059,
+        "stop" : 1752654086795,
+        "duration" : 7736
+      }
+    }, {
+      "uid" : "11942a952fbf29f3",
+      "reportUrl" : "/#testresult/11942a952fbf29f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752650917832,
+        "stop" : 1752650924015,
+        "duration" : 6183
       }
     } ]
   },
@@ -104,18 +333,63 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "e8e5f26ad22d9a66",
-      "reportUrl" : "/#testresult/e8e5f26ad22d9a66",
+      "uid" : "9cc8013c0b20d705",
+      "reportUrl" : "/#testresult/9cc8013c0b20d705",
       "status" : "passed",
       "time" : {
-        "start" : 1752142223672,
-        "stop" : 1752142247781,
-        "duration" : 24109
+        "start" : 1752846860277,
+        "stop" : 1752846886532,
+        "duration" : 26255
+      }
+    }, {
+      "uid" : "2e2b1eea3b397e7",
+      "reportUrl" : "/#testresult/2e2b1eea3b397e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829192799,
+        "stop" : 1752829211526,
+        "duration" : 18727
+      }
+    }, {
+      "uid" : "95a9f16ab802e4d5",
+      "reportUrl" : "/#testresult/95a9f16ab802e4d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825071242,
+        "stop" : 1752825093523,
+        "duration" : 22281
+      }
+    }, {
+      "uid" : "c9448b451d953c70",
+      "reportUrl" : "/#testresult/c9448b451d953c70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657084726,
+        "stop" : 1752657101274,
+        "duration" : 16548
+      }
+    }, {
+      "uid" : "ab41343feb8c3c17",
+      "reportUrl" : "/#testresult/ab41343feb8c3c17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654012300,
+        "stop" : 1752654035470,
+        "duration" : 23170
+      }
+    }, {
+      "uid" : "741e908d680d41bd",
+      "reportUrl" : "/#testresult/741e908d680d41bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752650941769,
+        "stop" : 1752650961279,
+        "duration" : 19510
       }
     } ]
   },
@@ -124,18 +398,63 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "59b35da9af23e093",
-      "reportUrl" : "/#testresult/59b35da9af23e093",
+      "uid" : "39cab869158bf162",
+      "reportUrl" : "/#testresult/39cab869158bf162",
       "status" : "passed",
       "time" : {
-        "start" : 1752142300340,
-        "stop" : 1752142304572,
-        "duration" : 4232
+        "start" : 1752846932186,
+        "stop" : 1752846936543,
+        "duration" : 4357
+      }
+    }, {
+      "uid" : "de5bf20b57aab1a7",
+      "reportUrl" : "/#testresult/de5bf20b57aab1a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829255575,
+        "stop" : 1752829260023,
+        "duration" : 4448
+      }
+    }, {
+      "uid" : "cd929392ce56cd6b",
+      "reportUrl" : "/#testresult/cd929392ce56cd6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825105665,
+        "stop" : 1752825109953,
+        "duration" : 4288
+      }
+    }, {
+      "uid" : "ccbf92b4ab9e7f61",
+      "reportUrl" : "/#testresult/ccbf92b4ab9e7f61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657157776,
+        "stop" : 1752657162496,
+        "duration" : 4720
+      }
+    }, {
+      "uid" : "59ff33c92d06c296",
+      "reportUrl" : "/#testresult/59ff33c92d06c296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654082135,
+        "stop" : 1752654088270,
+        "duration" : 6135
+      }
+    }, {
+      "uid" : "31b9358113fdf61c",
+      "reportUrl" : "/#testresult/31b9358113fdf61c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752651018756,
+        "stop" : 1752651022009,
+        "duration" : 3253
       }
     } ]
   },
@@ -144,18 +463,63 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "821b6aa32ded881a",
-      "reportUrl" : "/#testresult/821b6aa32ded881a",
+      "uid" : "347ffef5a3472b89",
+      "reportUrl" : "/#testresult/347ffef5a3472b89",
       "status" : "passed",
       "time" : {
-        "start" : 1752142283095,
-        "stop" : 1752142286778,
-        "duration" : 3683
+        "start" : 1752846917876,
+        "stop" : 1752846920110,
+        "duration" : 2234
+      }
+    }, {
+      "uid" : "5d424cc1ff258fa8",
+      "reportUrl" : "/#testresult/5d424cc1ff258fa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829244869,
+        "stop" : 1752829247823,
+        "duration" : 2954
+      }
+    }, {
+      "uid" : "4f7b448450061ef",
+      "reportUrl" : "/#testresult/4f7b448450061ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825053680,
+        "stop" : 1752825056398,
+        "duration" : 2718
+      }
+    }, {
+      "uid" : "78d0e7ddc5faf2ab",
+      "reportUrl" : "/#testresult/78d0e7ddc5faf2ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657144007,
+        "stop" : 1752657147125,
+        "duration" : 3118
+      }
+    }, {
+      "uid" : "9de96b4e76823ec5",
+      "reportUrl" : "/#testresult/9de96b4e76823ec5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654011950,
+        "stop" : 1752654015570,
+        "duration" : 3620
+      }
+    }, {
+      "uid" : "5846b96da43afc4",
+      "reportUrl" : "/#testresult/5846b96da43afc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752650999407,
+        "stop" : 1752651001428,
+        "duration" : 2021
       }
     } ]
   },
@@ -164,38 +528,130 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "de9439105ec5a3f3",
-      "reportUrl" : "/#testresult/de9439105ec5a3f3",
+      "uid" : "7cdd2d017e7078ea",
+      "reportUrl" : "/#testresult/7cdd2d017e7078ea",
       "status" : "passed",
       "time" : {
-        "start" : 1752142164826,
-        "stop" : 1752142169776,
-        "duration" : 4950
+        "start" : 1752846858290,
+        "stop" : 1752846862559,
+        "duration" : 4269
+      }
+    }, {
+      "uid" : "195cef656b86429a",
+      "reportUrl" : "/#testresult/195cef656b86429a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829187948,
+        "stop" : 1752829193393,
+        "duration" : 5445
+      }
+    }, {
+      "uid" : "a4d073d0aaaadd53",
+      "reportUrl" : "/#testresult/a4d073d0aaaadd53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752825068706,
+        "stop" : 1752825074061,
+        "duration" : 5355
+      }
+    }, {
+      "uid" : "55dc89d62a892da7",
+      "reportUrl" : "/#testresult/55dc89d62a892da7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657049595,
+        "stop" : 1752657052568,
+        "duration" : 2973
+      }
+    }, {
+      "uid" : "766462096d7973b0",
+      "reportUrl" : "/#testresult/766462096d7973b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752654010649,
+        "stop" : 1752654016067,
+        "duration" : 5418
+      }
+    }, {
+      "uid" : "dbd23be86b87717c",
+      "reportUrl" : "/#testresult/dbd23be86b87717c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752650893680,
+        "stop" : 1752650898102,
+        "duration" : 4422
       }
     } ]
   },
   "8700db9676d829ca8fac2dd1284c0819" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     },
     "items" : [ {
-      "uid" : "6c88c56c372ec3fa",
-      "reportUrl" : "/#testresult/6c88c56c372ec3fa",
+      "uid" : "2e1259878bd055c2",
+      "reportUrl" : "/#testresult/2e1259878bd055c2",
       "status" : "passed",
       "time" : {
-        "start" : 1752142417622,
-        "stop" : 1752142423037,
-        "duration" : 5415
+        "start" : 1752846981754,
+        "stop" : 1752846985435,
+        "duration" : 3681
+      }
+    }, {
+      "uid" : "cd698b25fbc4b44d",
+      "reportUrl" : "/#testresult/cd698b25fbc4b44d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752829303105,
+        "stop" : 1752829308019,
+        "duration" : 4914
+      }
+    }, {
+      "uid" : "b46061ae072cdf81",
+      "reportUrl" : "/#testresult/b46061ae072cdf81",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"//input[@type='checkbox']/ancestor::div[@class='a-checkbox a-checkbox-fancy sc-item-check-checkbox-selector sc-list-item-checkbox']\") to be visible",
+      "time" : {
+        "start" : 1752825168732,
+        "stop" : 1752825231772,
+        "duration" : 63040
+      }
+    }, {
+      "uid" : "5035da3e8a73c54a",
+      "reportUrl" : "/#testresult/5035da3e8a73c54a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752657231840,
+        "stop" : 1752657235586,
+        "duration" : 3746
+      }
+    }, {
+      "uid" : "9ca2227803b4abb6",
+      "reportUrl" : "/#testresult/9ca2227803b4abb6",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"//input[@type='checkbox']/ancestor::div[@class='a-checkbox a-checkbox-fancy sc-item-check-checkbox-selector sc-list-item-checkbox']\") to be visible",
+      "time" : {
+        "start" : 1752654193730,
+        "stop" : 1752654254926,
+        "duration" : 61196
+      }
+    }, {
+      "uid" : "d5a6d8d1d8619ab2",
+      "reportUrl" : "/#testresult/d5a6d8d1d8619ab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752651114664,
+        "stop" : 1752651118579,
+        "duration" : 3915
       }
     } ]
   }

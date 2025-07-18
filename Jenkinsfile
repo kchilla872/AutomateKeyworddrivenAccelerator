@@ -16,18 +16,20 @@ pipeline {
                             mkdir allure-results
                             xcopy /E /I /Y allure-report\\history allure-results\\history
                         )
-                        pytest test_homePage.py -v --alluredir=allure-results
+                        pytest test_homePage.py -n 2 -v --alluredir=allure-results
                     '''
                 }
             }
         }
-        // Optionally, keep this if you want to archive the HTML report
+
+        // (Optional) Archive HTML report if generated
         stage('Archive Allure Report') {
             steps {
                 archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
             }
         }
     }
+
     post {
         always {
             allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]

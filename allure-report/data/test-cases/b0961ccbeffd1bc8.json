@@ -1,0 +1,329 @@
+{
+  "uid" : "b0961ccbeffd1bc8",
+  "name" : "test_TC007_Save_for_later_CartItems[chromium]",
+  "fullName" : "test_homePage#test_TC007_Save_for_later_CartItems",
+  "historyId" : "fdcf7dc1f84e8ddd9fdfa62b9a796970",
+  "time" : {
+    "start" : 1753098816017,
+    "stop" : 1753098822893,
+    "duration" : 6876
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "add_browser_and_worker_info",
+    "time" : {
+      "start" : 1753098804221,
+      "stop" : 1753098804221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1753098677595,
+      "stop" : 1753098677595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1753098677597,
+      "stop" : 1753098677597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "playwright",
+    "time" : {
+      "start" : 1753098677599,
+      "stop" : 1753098679575,
+      "duration" : 1976
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1753098677597,
+      "stop" : 1753098677597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1753098807304,
+      "stop" : 1753098816013,
+      "duration" : 8709
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1753098677597,
+      "stop" : 1753098677597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1753098804221,
+      "stop" : 1753098807303,
+      "duration" : 3082
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f82127bec4c59d0d",
+      "name" : "screenshot",
+      "source" : "f82127bec4c59d0d.png",
+      "type" : "image/png",
+      "size" : 181267
+    }, {
+      "uid" : "1780150527164340",
+      "name" : "stdout",
+      "source" : "1780150527164340.txt",
+      "type" : "text/plain",
+      "size" : 35
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "playwright::0",
+    "time" : {
+      "start" : 1753098858004,
+      "stop" : 1753098858056,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "page::0",
+    "time" : {
+      "start" : 1753098823836,
+      "stop" : 1753098828979,
+      "duration" : 5143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1753098828985,
+      "stop" : 1753098829979,
+      "duration" : 994
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "browser",
+    "value" : "chromium"
+  }, {
+    "name" : "worker",
+    "value" : "gw0"
+  }, {
+    "name" : "pid",
+    "value" : "33912"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "suite",
+    "value" : "test_homePage"
+  }, {
+    "name" : "host",
+    "value" : "CBTSINDIAL3410"
+  }, {
+    "name" : "thread",
+    "value" : "33912-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_homePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser_name",
+    "value" : "'chromium'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "20a3b6c58e3094db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752857631968,
+        "stop" : 1752857635066,
+        "duration" : 3098
+      }
+    }, {
+      "uid" : "9c1f2a273640e9cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752856920616,
+        "stop" : 1752856925403,
+        "duration" : 4787
+      }
+    }, {
+      "uid" : "ca2ec08799e75b53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752856686196,
+        "stop" : 1752856690887,
+        "duration" : 4691
+      }
+    }, {
+      "uid" : "424315db0238844b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752856193619,
+        "stop" : 1752856195934,
+        "duration" : 2315
+      }
+    }, {
+      "uid" : "4da2551a533d1903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752855321562,
+        "stop" : 1752855325385,
+        "duration" : 3823
+      }
+    }, {
+      "uid" : "22cb24f924f8a645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1752854759913,
+        "stop" : 1752854764027,
+        "duration" : 4114
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "73161de0c53cd509",
+        "reportUrl" : "/#testresult/73161de0c53cd509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752857631968,
+          "stop" : 1752857635066,
+          "duration" : 3098
+        }
+      }, {
+        "uid" : "1e50208b1debc5d1",
+        "reportUrl" : "/#testresult/1e50208b1debc5d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1752856193619,
+          "stop" : 1752856195934,
+          "duration" : 2315
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "b0961ccbeffd1bc8.json",
+  "parameterValues" : [ "'chromium'" ]
+}

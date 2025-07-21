@@ -1,0 +1,139 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_homePage",
+    "children" : [ {
+      "name" : "test_TC001_View_Logo[chromium]",
+      "uid" : "33e747b44d7f2e0c",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098702966,
+        "stop" : 1753098707716,
+        "duration" : 4750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC003_AddtoCart[chromium]",
+      "uid" : "8ba1ff076acc654d",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098708265,
+        "stop" : 1753098731997,
+        "duration" : 23732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC004_GotoCart[chromium]",
+      "uid" : "33c8fe442a70f843",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098750612,
+        "stop" : 1753098756042,
+        "duration" : 5430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC002_SearchItem[chromium]",
+      "uid" : "c5048e3843e71a76",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098761569,
+        "stop" : 1753098768937,
+        "duration" : 7368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC006_Unchecking_Checking_CartItems[chromium]",
+      "uid" : "6c670480f6ade799",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098786618,
+        "stop" : 1753098792624,
+        "duration" : 6006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC005_ViewCart[chromium]",
+      "uid" : "d964e30c078810db",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098801454,
+        "stop" : 1753098804334,
+        "duration" : 2880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC007_Save_for_later_CartItems[chromium]",
+      "uid" : "b0961ccbeffd1bc8",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098816017,
+        "stop" : 1753098822893,
+        "duration" : 6876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC008_Move_to_cart[chromium]",
+      "uid" : "a0ea8ae3ac49a6e1",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098829086,
+        "stop" : 1753098834123,
+        "duration" : 5037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC009_Increment_Decrement_items[chromium]",
+      "uid" : "173e7b1f186eaf71",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098842456,
+        "stop" : 1753098847823,
+        "duration" : 5367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    }, {
+      "name" : "test_TC010_Delete_items[chromium]",
+      "uid" : "adb5f8ab78938046",
+      "parentUid" : "ac89d260423e9cbfbbd85fe13e9a7388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753098855318,
+        "stop" : 1753098863669,
+        "duration" : 8351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'chromium'" ]
+    } ],
+    "uid" : "ac89d260423e9cbfbbd85fe13e9a7388"
+  } ]
+}

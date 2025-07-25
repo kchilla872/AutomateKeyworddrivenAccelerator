@@ -33,7 +33,7 @@ def get_git_info():
         pass # Git not found or not a git repo
     return branch, commit
 
-# =============== Parallel Browser Assignment ===============
+# =============== Parallel Browser ===============
 
 def pytest_configure(config):
     """Configure pytest for parallel browser execution"""
@@ -154,7 +154,7 @@ def browser(playwright: Playwright, request, browser_name):
         launch_args.append('--ignore-certificate-errors')
     proxy = {"server": 'localhost:8080'} if runZap else None
 
-    print(f"🚀 Launching {browser_name} browser...")
+    print(f" Launching {browser_name} browser...")
 
     if browser_name == "chrome":
         chrome_path = shutil.which("chrome") or shutil.which("google-chrome") or r"C:\Program Files\Google\Chrome\Application\chrome.exe"
@@ -191,7 +191,7 @@ def browser(playwright: Playwright, request, browser_name):
 
 @pytest.fixture(scope="function")
 def page(browser, request, browser_name):
-    storage_path = f"test_{browser_name}.json"
+    storage_path = "test.json"
     add_video = request.config.getoption("add_video")
 
     context_args = {}
@@ -212,7 +212,7 @@ def page(browser, request, browser_name):
     context.tracing.start(screenshots=True, snapshots=True, sources=True)
     page = context.new_page()
     page.set_default_timeout(60000)
-    page.goto("https://www.amazon.in")
+    page.goto("https://www.amazon.in", wait_until="domcontentloaded")
 
     yield page
 
@@ -257,4 +257,3 @@ def pytest_runtest_makereport(item, call):
                     )
                 except Exception as e:
                     print(f"Warning: Could not take screenshot for {item.nodeid}: {e}")
-

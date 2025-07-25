@@ -1,0 +1,22 @@
+TestCaseID,StepNumber,Keyword,Parameters
+TC001,1,go_to_homepage,
+TC001,2,check_logo,
+TC002,1,go_to_homepage,
+TC002,2,search_item,Wireless Headphones
+TC002,3,add_first_search_result_to_cart,
+TC003,1,go_to_homepage,
+TC003,2,search_item,Wireless Headphones
+TC003,3,add_first_search_result_to_cart,
+TC003,4,go_to_cart,
+TC003,5,view_cart,
+TC004,1,go_to_cart,
+TC004,2,toggle_cart_item_checkbox,
+TC005,1,go_to_cart,
+TC005,2,save_for_later,
+TC006,1,go_to_cart,
+TC006,2,move_to_cart,
+TC007,1,go_to_cart,
+TC007,2,increment_item,
+TC007,3,decrement_item,
+TC008,1,go_to_cart,
+TC008,2,delete_item,

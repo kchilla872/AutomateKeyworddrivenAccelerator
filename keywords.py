@@ -49,22 +49,3 @@ def save_for_later(page):
     page.wait_for_selector(HomePage.Saveforlater, state="visible", timeout=10000)
     page.click(HomePage.Saveforlater)
 
-
-def move_to_cart(page):
-    page.wait_for_selector(HomePage.Movetocart).click()
-    page.wait_for_timeout(1000)
-
-
-def increment_item(page):
-    page.wait_for_selector(HomePage.incrementicon).click()
-    page.wait_for_timeout(60000)
-
-
-def decrement_item(page):
-    page.wait_for_selector(HomePage.decrementicon).click()
-    page.wait_for_timeout(60000)
-
-
-def delete_item(page):
-    page.wait_for_selector(HomePage.Cartitemradiobutton).click()
-    page.click(HomePage.Delete, timeout=60000)

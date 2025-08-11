@@ -1,0 +1,22 @@
+
+=== Executing keyword: open_url with args: ['https://magento.softwaretestingboard.com/'] ===
+
+=== Executing keyword: login_as with args: ['kckarthik9@gmail.com', 'Testdemo1'] ===
+
+=== Executing keyword: input_search_keyword with args: ['jacket'] ===
+
+=== Executing keyword: click_search_button with args: [] ===
+
+=== Executing keyword: assert_search_results_contains with args: ['Search results for'] ===
+
+=== Executing keyword: select_adrienne_trek_jacket with args: [] ===
+
+=== Executing keyword: select_size_small with args: [] ===
+
+=== Executing keyword: select_color_blue with args: [] ===
+
+=== Executing keyword: add_to_cart with args: [] ===
+
+=== Executing keyword: click_cart_icon with args: [] ===
+
+=== Executing keyword: click_proceed_to_checkout with args: [] ===

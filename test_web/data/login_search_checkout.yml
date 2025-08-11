@@ -1,0 +1,58 @@
+- keyword: open_url
+  args:
+    - "https://magento.softwaretestingboard.com/"
+
+- keyword: login_as
+  args:
+    - "kckarthik9@gmail.com"
+    - "Testdemo1"
+
+- keyword: input_search_keyword
+  args:
+    - "jacket"
+
+- keyword: click_search_button
+  args: []
+
+- keyword: assert_search_results_contains
+  args:
+    - "Search results for"
+
+- keyword: select_adrienne_trek_jacket
+  args: []
+
+- keyword: select_size_small
+  args: []
+
+- keyword: select_color_blue
+  args: []
+
+- keyword: add_to_cart
+  args: []
+
+- keyword: click_cart_icon
+  args: []
+
+- keyword: click_proceed_to_checkout
+  args: []
+
+#- keyword: fill_checkout_shipping_address
+#  args:
+#    - "Karthik"
+#    - "Chillara"
+#    - "Perplexity Inc"
+#    - "123 Demo Street"
+#    - "Phoenix"
+#    - "Arizona"
+#    - "85001"
+#    - "United States"
+#    - "1234567890"
+
+- keyword: select_first_shipping_method
+  args: []
+
+- keyword: click_next_button
+  args: []
+
+- keyword: click_place_order
+  args: []

@@ -1,0 +1,8 @@
+keyword,arg1,arg2
+open_url,https://magento.softwaretestingboard.com/,
+click_element,(//a[contains(text(),'Sign In')])[1]
+input_text,#email,kckarthik9@gmail.com
+input_text,#pass,Testdemo1
+click_element,//button[@type='submit' and contains(text(),'Sign In')]
+input_search_keyword,jacket
+click_search_button

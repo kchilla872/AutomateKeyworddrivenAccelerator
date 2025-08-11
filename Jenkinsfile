@@ -6,19 +6,32 @@ pipeline {
             steps {
                 script {
                     bat '''
-                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenAutomate"
-                        "venv\\Scripts\\python.exe" -m pip install --upgrade pip
-                        "venv\\Scripts\\python.exe" -m pip install -r requirements.txt
-                        "venv\\Scripts\\python.exe" -m playwright install chromium --with-dep
-                        "venv\\Scripts\\python.exe" -m pytest -n 2 --html=report.html --self-contained-html
+                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenAccelerator"
+                        call venv\\Scripts\\activate
+                        pip install -r requirements.txt
+                        playwright install chromium --with-deps
+                        if exist allure-results rmdir /s /q allure-results
+                        if exist allure-report rmdir /s /q allure-report
+                        if exist allure-report\\history (
+                            mkdir allure-results
+                            xcopy /E /I /Y allure-report\\history allure-results\\history
+                        )
+                        pytest test_web\\test_runner.py -v --alluredir=allure-results
                     '''
                 }
             }
         }
+
+        stage('Archive Allure Report') {
+            steps {
+                archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
+            }
+        }
     }
+
     post {
         always {
-            archiveArtifacts artifacts: 'report.html'
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
         }
     }
 }

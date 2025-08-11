@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/KeywordDrivenAutomate.iml" filepath="$PROJECT_DIR$/.idea/KeywordDrivenAutomate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/KeywordDrivenAccelerator.iml" filepath="$PROJECT_DIR$/.idea/KeywordDrivenAccelerator.iml" />
     </modules>
   </component>
 </project>

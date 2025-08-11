@@ -1,0 +1,8 @@
+
+=== Executing keyword: open_url with args: ['https://magento.softwaretestingboard.com/'] ===
+
+=== Executing keyword: login_as with args: ['kckarthik9@gmail.com', 'Testdemo1'] ===
+
+=== Executing keyword: input_search_keyword with args: ['jacket'] ===
+
+=== Executing keyword: click_search_button with args: [] ===

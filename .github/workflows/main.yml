@@ -29,12 +29,12 @@ jobs:
 
       - name: Clean previous allure results
         run: |
-          if exist allure-results rmdir /s /q allure-results
-          if exist allure-report rmdir /s /q allure-report
-          if exist allure-report\history (
-              mkdir allure-results
-              xcopy /E /I /Y allure-report\history allure-results\history
-          )
+          if (Test-Path "allure-results") { Remove-Item "allure-results" -Recurse -Force }
+          if (Test-Path "allure-report") { Remove-Item "allure-report" -Recurse -Force }
+          if (Test-Path "allure-report\history") { 
+            New-Item "allure-results" -ItemType Directory -Force 
+            Copy-Item "allure-report\history\*" "allure-results\history" -Recurse -Force 
+          }
 
       - name: Run Pytest with Allure
         run: |
